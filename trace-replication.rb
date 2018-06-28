@@ -4,7 +4,7 @@ require 'uri'
 RIAK_HTTP_HOST="http://localhost:8098"
 RIAK_BUCKET_PATH = "/buckets/test-repl-trace/keys/"
 RECORD_COUNT = 50
-RECORD_INTERVAL = 5
+RECORD_INTERVAL = 5 # Time in seconds
 
 def create_timestamp
   t = Time.new
